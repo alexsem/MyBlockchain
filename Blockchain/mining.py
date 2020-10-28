@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from blockchain import Blockchain
+from Blockchain.blockchain import Blockchain
 
 app = Flask(__name__)
 
